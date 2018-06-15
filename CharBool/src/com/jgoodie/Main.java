@@ -13,5 +13,11 @@ public class Main {
         } else {
             System.out.println("is not female");
         }
+
+        //char reg = '®'; // this works
+        char reg = '\u00AE';
+        char copyrt = '\u00A9';
+        System.out.println("Registered Symbol: " + reg);
+        System.out.println("Copy right symbol: " + copyrt);
     }
 }
