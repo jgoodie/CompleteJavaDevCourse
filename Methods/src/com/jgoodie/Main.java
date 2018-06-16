@@ -5,8 +5,8 @@ public class Main {
 
     public static void main(String[] args) {
         // write your code here
-        int min = -10000;
-        int max = 10000;
+        int min = -5000;
+        int max = 5000;
         Random rand = new Random();
         int levelCompleted = 5;
         int bonus = 100;
@@ -15,7 +15,7 @@ public class Main {
         while (counter <= 100) {
             int score = rand.nextInt((max - min) + 1) + min;
             int highScore = calculateScore(gameOver, score, levelCompleted, bonus);
-            displayHighScorePosition("John", calculateHighScorePosition(highScore));
+            displayHighScorePosition("John", calculateHighScorePosition(highScore), score);
             counter++;
         }
     }
@@ -34,8 +34,9 @@ public class Main {
 
     }
 
-    private static void displayHighScorePosition(String playerName, int position){
-        System.out.println(playerName + " is in position " + position);
+    private static void displayHighScorePosition(String playerName, int position, int score){
+        System.out.println(playerName + " is in position " + position +
+        " with score: " + score);
     }
 
     private static int calculateHighScorePosition(int highScore){
