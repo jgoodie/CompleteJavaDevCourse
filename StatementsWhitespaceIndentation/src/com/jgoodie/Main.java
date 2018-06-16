@@ -18,5 +18,6 @@ public class Main {
         int myVar2 = 10; int mvVar3 = 20; // can put statements on a single line
 
         // you should know by now that indenting is just good manners
+        System.out.println("you should know by now that indenting is just good manners");
     }
 }
