@@ -8,14 +8,17 @@ public class Main {
         int min = 0;
         int max = 10000;
         Random rand = new Random();
+        int levelCompleted = 5;
+        int bonus = 100;
         int counter = 0;
+        boolean gameOver = true;
         while (counter <= 100) {
             int score = rand.nextInt((max - min) + 1) + min;
             if (score < 5000) {
-                calculateScore(true, score, 5, 100);
+                calculateScore(gameOver, score, levelCompleted, bonus);
             }
             else {
-                calculateScore(true, score, 5, 100);
+                calculateScore(gameOver, score, levelCompleted, bonus);
             }
             counter++;
         }
