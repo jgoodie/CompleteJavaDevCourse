@@ -26,6 +26,6 @@ public class Main {
         if (gameOver){
             int finalScore = score + (levelCompleted * bonus);
             System.out.println("Your final score: " + finalScore);
-        }
+        } // note: you can't access finalScore outside of this code block. This is scope. Remember that?
     }
 }
