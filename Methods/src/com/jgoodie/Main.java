@@ -44,11 +44,11 @@ public class Main {
         if(highScore >= 1000){
            position = 1;
         }
-        else if((highScore < 1000) && (highScore >=500)) {
+        else if(highScore >=500) { // can remove (highScore < 1000) since previous satisfies it implicitly
             position = 2;
         }
-        else if((highScore<500)&&(highScore>=100)){
-            position = 3;
+        else if(highScore>=100){ // can remove (highScore<500) since previous satisfies it implicitly.
+            position = 3; // Personally I like to add those conditions because it's very explicit
         }
         else {
             position = 4;
