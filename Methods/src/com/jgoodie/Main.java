@@ -5,7 +5,7 @@ public class Main {
 
     public static void main(String[] args) {
         // write your code here
-        int min = 0;
+        int min = -10000;
         int max = 10000;
         Random rand = new Random();
         int levelCompleted = 5;
@@ -14,24 +14,44 @@ public class Main {
         boolean gameOver = true;
         while (counter <= 100) {
             int score = rand.nextInt((max - min) + 1) + min;
-            if (score < 5000) {
-                calculateScore(gameOver, score, levelCompleted, bonus);
-            }
-            else {
-                calculateScore(gameOver, score, levelCompleted, bonus);
-            }
+            int highScore = calculateScore(gameOver, score, levelCompleted, bonus);
+            displayHighScorePosition("John", calculateHighScorePosition(highScore));
             counter++;
         }
-
     }
 
     // can't put a method/function with in another method/function
     // also don't want to put it outside the public class definition
-    private static void calculateScore(boolean gameOver, int score, int levelCompleted, int bonus){
+    // NOTE: use void if you don't want to return anything. Sound familiar? C++?
+    private static int calculateScore(boolean gameOver, int score, int levelCompleted, int bonus){
         if (gameOver){
-            int finalScore = score + (levelCompleted * bonus);
-            System.out.println("Your final score: " + finalScore);
+            //int finalScore = score + (levelCompleted * bonus);
+            return (score + (levelCompleted * bonus));
         } // note: you can't access finalScore outside of this code block. This is scope. Remember that?
+        else {
+            return (-1);
+        }
 
+    }
+
+    private static void displayHighScorePosition(String playerName, int position){
+        System.out.println(playerName + " is in position " + position);
+    }
+
+    private static int calculateHighScorePosition(int highScore){
+        int position;
+        if(highScore >= 1000){
+           position = 1;
+        }
+        else if((highScore < 1000) && (highScore >=500)) {
+            position = 2;
+        }
+        else if((highScore<500)&&(highScore>=100)){
+            position = 3;
+        }
+        else {
+            position = 4;
+        }
+        return (position);
     }
 }
