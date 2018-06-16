@@ -23,5 +23,9 @@ public class Main {
             }
             counter++;
         }
+        if (gameOver){
+            int finalScore = score + (levelCompleted * bonus);
+            System.out.println("Your final score: " + finalScore);
+        }
     }
 }
