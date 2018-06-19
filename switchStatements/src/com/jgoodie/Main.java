@@ -22,25 +22,41 @@ public class Main {
                 break;
         }
 
-        char foo = 'E';
+        char foo = 'D';
         switch (foo){
             case 'A':
-                System.out.println("Found an A");
+                System.out.println("Found an " + foo);
                 break;
             case 'B':
-                System.out.println("Found an B");
+                System.out.println("Found a " + foo);
                 break;
             case 'C':
-                System.out.println("Found an C");
+                System.out.println("Found a " + foo);
                 break;
             case 'D':
-                System.out.println("Found an D");
+                System.out.println("Found a " + foo);
                 break;
             case 'E':
-                System.out.println("Found an E");
+                System.out.println("Found a " + foo);
                 break;
             default:
                 System.out.println("Default case");
+                break;
+        }
+
+        String bar = "foobar";
+        switch (bar){
+            case "hello":
+                System.out.println(bar);
+                break;
+            case "foo":
+                System.out.println(bar);
+                break;
+            case "bar":
+                System.out.println(bar);
+                break;
+            default:
+                System.out.println("I don't know");
                 break;
         }
     }
