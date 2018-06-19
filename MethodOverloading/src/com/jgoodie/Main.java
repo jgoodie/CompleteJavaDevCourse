@@ -9,10 +9,10 @@ public class Main {
 //        System.out.println("Unamed player has score: " + unamedScore);
 //        int noPlayerName = calculateScore();
 //        System.out.println("No player name, no score: " + noPlayerName);
-        //double cm = calcFeetAndInchesToCentimeters(5, 8);
-        //System.out.println(cm);
-        double cm = calcFeetAndInchesToCentimeters(100);
+        double cm = calcFeetAndInchesToCentimeters(6, 0);
         System.out.println(cm);
+        double cm2 = calcFeetAndInchesToCentimeters(100);
+        System.out.println(cm2);
     }
     //Method overloading
     // note that you can't change the return type: int to void
@@ -56,7 +56,6 @@ public class Main {
         else {
             double remainderInches = inches%12;
             double feet = (inches - remainderInches)/12.0;
-            System.out.println("feet " + feet + " inches " + remainderInches);
             return calcFeetAndInchesToCentimeters(feet, remainderInches);
         }
     }
