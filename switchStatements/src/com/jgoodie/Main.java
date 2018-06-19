@@ -44,8 +44,8 @@ public class Main {
                 break;
         }
 
-        String bar = "foobar";
-        switch (bar){
+        String bar = "FoOBaR";
+        switch (bar.toLowerCase()){
             case "hello":
                 System.out.println(bar);
                 break;
@@ -54,6 +54,9 @@ public class Main {
                 break;
             case "bar":
                 System.out.println(bar);
+                break;
+            case "foobar":
+                System.out.println("foobar");
                 break;
             default:
                 System.out.println("I don't know");
