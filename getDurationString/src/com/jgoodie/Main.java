@@ -2,6 +2,7 @@ package com.jgoodie;
 
 public class Main {
     // Constant to use for the invalid value return value
+    // All upper indicates a constant value
     private static final String INVALID_VALUE_MESSAGE = "Invalid Value";
     public static void main(String[] args) {
 
