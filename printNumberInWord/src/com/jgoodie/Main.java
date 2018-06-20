@@ -3,7 +3,10 @@ package com.jgoodie;
 public class Main {
 
     public static void main(String[] args) {
-
+        printNumberInWord(0);
+        printNumberInWord(9);
+        printNumberInWord(-1);
+        printNumberInWord(10);
     }
     private static void printNumberInWord(int number){
         switch (number){
