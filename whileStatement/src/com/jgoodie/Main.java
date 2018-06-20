@@ -29,13 +29,13 @@ public class Main {
         while (number <= finishNumber){
             number++;
             if(!isEvenNumber(number)){
-                System.out.println("not even");
+                //System.out.println("not even");
                 continue; //should jump back to the top of the loop
             }
             evenCount++;
             System.out.println("Even number " + number);
             if(evenCount >= 5){
-                System.out.println("Count 5");
+                System.out.println("Even Count " + evenCount);
                 break;
             }
         }
