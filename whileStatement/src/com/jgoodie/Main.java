@@ -24,14 +24,20 @@ public class Main {
 //            count++;
 //        } while(count <= 5);
         int number = 4;
-        int finishNumber = 20;
+        int finishNumber = 40;
+        int evenCount = 0;
         while (number <= finishNumber){
             number++;
             if(!isEvenNumber(number)){
-                System.out.println("continue");
+                System.out.println("not even");
                 continue; //should jump back to the top of the loop
             }
+            evenCount++;
             System.out.println("Even number " + number);
+            if(evenCount >= 5){
+                System.out.println("Count 5");
+                break;
+            }
         }
     }
 
