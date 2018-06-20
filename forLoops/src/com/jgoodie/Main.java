@@ -4,8 +4,18 @@ public class Main {
 
     public static void main(String[] args) {
         //System.out.println(calculateInterest(1000.00, 1.5));
-        for(int i=0; i<=10; i++ ){
-            System.out.println(calculateInterest(1000.00, 1.0+i/10.0));
+        //for(int i=0; i<=10; i++ ){
+         //   System.out.println(calculateInterest(1000.00, 1.0+i/10.0));
+        //}
+        int primeCount = 0;
+        for (int i=50; i<=100; i++){
+            if (primeCount == 3){
+                break;
+            }
+            if(isPrime(i)){
+                System.out.println("prime: " + i);
+                primeCount++;
+            }
         }
     }
     public static double calculateInterest(double amount, double interestRate){
@@ -22,4 +32,5 @@ public class Main {
         }
         return true;
     }
+
 }
