@@ -12,6 +12,7 @@ public class Main {
                 System.out.println(i);
             }
             if (sumCount == 5){
+                System.out.println("break!");
                 break;
             }
         }
