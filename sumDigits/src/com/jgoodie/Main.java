@@ -7,6 +7,9 @@ public class Main {
         System.out.println(sumDigits(1251));
         System.out.println(sumDigits(2345));
         System.out.println(sumDigits(10));
+        System.out.println(sumDigits(-125));
+        System.out.println(sumDigits(4));
+        System.out.println(sumDigits(32123));
     }
 
     public static int sumDigits(int n){
