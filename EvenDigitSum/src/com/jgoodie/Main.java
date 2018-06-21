@@ -23,7 +23,14 @@ public class Main {
             return -1;
         }
         int length = String.valueOf(number).length();
-        
+        int evenSum = 0;
+        for(int i = 1; i <=length; i++){
+            if(isEven(number%10)){
+                evenSum += number%10;
+            }
+            number /= 10;
+        }
+        return evenSum;
 
     }
 }
