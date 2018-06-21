@@ -3,7 +3,7 @@ package com.jgoodie;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        System.out.println(getEvenDigitSum(123456789));
     }
 
     public static boolean isEven(int number){
