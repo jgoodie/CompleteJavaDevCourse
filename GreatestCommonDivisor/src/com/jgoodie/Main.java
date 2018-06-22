@@ -29,6 +29,5 @@ public class Main {
             }
         }
         return div;
-
     }
 }
