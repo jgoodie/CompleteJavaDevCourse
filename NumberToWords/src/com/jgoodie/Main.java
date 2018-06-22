@@ -3,7 +3,7 @@ package com.jgoodie;
 public class Main {
 
     public static void main(String[] args) {
-        numberToWords(-12);
+        numberToWords(10101);
     }
 
     public static int reverse(int number){
@@ -42,7 +42,6 @@ public class Main {
         }
         int numLen = getDigitCount(number);
         int revNum = reverse(number);
-        int forwardNum = 0;
         for(int i=1; i<=numLen; i++){
             //System.out.println(revNum%10);
             switch (revNum%10){
