@@ -10,7 +10,7 @@ public class Main {
     }
 
     public static boolean isPerfectNumber(int number){
-        if(number < 0){
+        if(number <= 0){
             return false;
         }
         int perfectSum = 0;
