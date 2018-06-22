@@ -3,9 +3,9 @@ package com.jgoodie;
 public class Main {
 
     public static void main(String[] args) {
-	    printFacotrs(10);
+	    printFactors(10);
     }
-    public static void printFacotrs(int val){
+    public static void printFactors(int val){
         if(val < 0){
             System.out.println("Invalid Value");
         }
