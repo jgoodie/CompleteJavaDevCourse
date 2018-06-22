@@ -3,10 +3,15 @@ package com.jgoodie;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println(reverse(123));
+        System.out.println(reverse(-123));
     }
 
     public static int reverse(int number){
+        boolean isNeg = false;
+        if(number<0){
+            isNeg = true;
+            number *= -1;
+        }
         int length = getDigitCount(number);
         int reverse = 0;
         int lastDigit = 0;
@@ -16,7 +21,12 @@ public class Main {
             reverse = reverse*10 + lastDigit;
             num = num/10;
         }
-        return reverse;
+        if(isNeg){
+            return reverse*-1;
+        }
+        else {
+            return reverse;
+        }
     }
 
     public static int getDigitCount(int number){
@@ -24,6 +34,10 @@ public class Main {
             return -1;
         }
         return String.valueOf(number).length();
+    }
+
+    public static void numberToWords(int number){
+
     }
 
 }
