@@ -3,7 +3,7 @@ package com.jgoodie;
 public class Main {
 
     public static void main(String[] args) {
-	    printSquareStar(10);
+	    printSquareStar(5);
     }
 
     public static void printSquareStar(int number){
@@ -19,7 +19,7 @@ public class Main {
                         System.out.print(" ");
                     }
                 }
-                System.out.println("\n");
+                System.out.println("");
             }
         }
     }
