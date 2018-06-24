@@ -13,7 +13,13 @@ public class Car {
     // need to create some kind of accessor method to update the fields/variables
     public void setModel(String model){
         //use this to specify the field to update; it's like self in python
-        this.model = model;
+        String validModel = model.toLowerCase();
+        if(validModel.equals("civic") || validModel.equals("pilot")){
+            this.model = model; // this is pretty pointless but you get the idea
+        }
+        else {
+            this.model = "something else";
+        }
     }
     public String getModel(){
         return this.model;
