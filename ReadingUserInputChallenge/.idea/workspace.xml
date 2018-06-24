@@ -34,7 +34,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="74" />
+    <option name="x" value="486" />
     <option name="y" value="23" />
     <option name="width" value="877" />
     <option name="height" value="802" />
@@ -106,8 +106,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="74" y="23" width="877" height="802" extended-state="0" />
-    <editor active="true" />
+    <frame x="486" y="23" width="877" height="802" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="bottom" id="TODO" order="9" />
@@ -117,12 +116,12 @@
       <window_info anchor="right" id="Capture Analysis" order="2" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50092083" side_tool="true" weight="0.19320215" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.4990792" visible="true" weight="0.32692307" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.4990792" visible="true" weight="0.32692307" />
       <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.4990792" weight="0.3291592" />
       <window_info anchor="bottom" id="Terminal" order="3" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.16191562" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.16191562" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info id="UI Designer" order="3" />
