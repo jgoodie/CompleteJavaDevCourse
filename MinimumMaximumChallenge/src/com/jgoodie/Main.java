@@ -16,7 +16,7 @@ public class Main {
             if(hasNextInt){
                 number = scanner.nextInt();
                 if((min == 0) && ( max == 0)){ // this is only set on the first number
-                    min = number;
+                    min = number; // could also use a boolean flag to do a similar thing
                     max = number;
                 }
                 if ((number >= max) && (number > min)){
