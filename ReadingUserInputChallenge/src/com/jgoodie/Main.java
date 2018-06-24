@@ -10,16 +10,17 @@ public class Main {
 	    int number = 0;
         boolean hasNextInt;
         Scanner scanner = new Scanner(System.in);
-        while (true){
+        while (inputCount < 11){
+        //while (true){
             System.out.println("Enter number #" + inputCount);
             hasNextInt = scanner.hasNextInt();
             if(hasNextInt){
                 number = scanner.nextInt();
                 inputCount++;
                 sum += number;
-                if(inputCount >= 11){
-                    break;
-                }
+//                if(inputCount >= 11){
+//                    break;
+//                }
             }
             else{
                 System.out.println("Invalid Number");
