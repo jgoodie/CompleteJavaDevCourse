@@ -12,6 +12,9 @@ public class BankAccount {
 
     // create a constructor
     public BankAccount(){
+        // can a constructor from another constructor
+        // this has to be first
+        this("56789", 2.50, "Default name", "Default@address", "000-000-0000" );
         System.out.println("empty constructor called");
     }
 

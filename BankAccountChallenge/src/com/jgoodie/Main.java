@@ -4,6 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 	    BankAccount myAccount = new BankAccount("000042", 1234.00, "Bob Robertson", "bob@bob.com", "555-123-1234");
+	    BankAccount defaultConstructorAcct = new BankAccount();
 	    //myAccount.setAcctNumber("000042");
 	    //myAccount.setCustomerName("Arthur Philip Dent");
 	    //myAccount.setEmailAddr("arthur.dent@gmail.com");
