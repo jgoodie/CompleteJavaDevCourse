@@ -9,5 +9,6 @@ public class Main {
         //dog.eat(); // eat and move were defined in Animal.java not Dog.java! Inheritance!!
         //dog.walk(); // super.move
         dog.run(); //used overridden move
+        System.out.println(dog.getName());
     }
 }

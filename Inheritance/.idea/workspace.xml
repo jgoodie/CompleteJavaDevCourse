@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25147100-f009-40c8-b48d-e150db42b47f" name="Default" comment="">
+    <list default="true" id="2ede15c2-38e5-4ae1-bd6d-fd9a9a33669e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../Vehicle/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vehicle/src/com/jgoodie/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vehicle/src/com/jgoodie/HondaCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vehicle/src/com/jgoodie/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankAccountChallenge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BankAccountChallenge/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Constructors/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Constructors/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jgoodie/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jgoodie/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,32 +20,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/jgoodie/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="82" selection-start-line="14" selection-start-column="82" selection-end-line="14" selection-end-column="82" />
+            <state relative-caret-position="165">
+              <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BankAccount.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jgoodie/BankAccount.java">
+      <file leaf-file-name="Animal.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jgoodie/Animal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="63" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="131">
+              <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vipCustomer.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/jgoodie/vipCustomer.java">
+      <file leaf-file-name="Dog.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jgoodie/Dog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+            <state relative-caret-position="690">
+              <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Fish.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jgoodie/Fish.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -59,17 +71,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/jgoodie/BankAccount.java" />
-        <option value="$PROJECT_DIR$/src/com/jgoodie/VipCustomer.java" />
+        <option value="$PROJECT_DIR$/src/com/jgoodie/Animal.java" />
+        <option value="$PROJECT_DIR$/src/com/jgoodie/Dog.java" />
+        <option value="$PROJECT_DIR$/src/com/jgoodie/Fish.java" />
         <option value="$PROJECT_DIR$/src/com/jgoodie/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/jgoodie/vipCustomer.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="755" />
+    <option name="x" value="715" />
     <option name="y" value="-1057" />
-    <option name="width" value="1015" />
+    <option name="width" value="1067" />
     <option name="height" value="1046" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -78,22 +90,21 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="BankAccountChallenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BankAccountChallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="Inheritance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Inheritance" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BankAccountChallenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BankAccountChallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="Inheritance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Inheritance" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BankAccountChallenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BankAccountChallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="Inheritance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Inheritance" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="jgoodie" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -101,8 +112,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -120,7 +132,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.jgoodie.Main" />
-      <module name="BankAccountChallenge" />
+      <module name="Inheritance" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -136,66 +148,47 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="25147100-f009-40c8-b48d-e150db42b47f" name="Default" comment="" />
-      <created>1529886964355</created>
+      <changelist id="2ede15c2-38e5-4ae1-bd6d-fd9a9a33669e" name="Default" comment="" />
+      <created>1529948024612</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1529886964355</updated>
+      <updated>1529948024612</updated>
     </task>
-    <task id="LOCAL-00001" summary="comit">
-      <created>1529891952784</created>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1529950752756</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1529891952784</updated>
+      <updated>1529950752756</updated>
     </task>
-    <task id="LOCAL-00002" summary="comit">
-      <created>1529893638884</created>
+    <task id="LOCAL-00002" summary="commit">
+      <created>1529951130471</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1529893638884</updated>
+      <updated>1529951130471</updated>
     </task>
-    <task id="LOCAL-00003" summary="comit">
-      <created>1529897411304</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1529897411304</updated>
-    </task>
-    <task id="LOCAL-00004" summary="comit">
-      <created>1529903946930</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1529903946930</updated>
-    </task>
-    <task id="LOCAL-00005" summary="commit">
-      <created>1529907329706</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1529907329706</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="755" y="-1057" width="1015" height="1046" extended-state="0" />
+    <frame x="715" y="-1057" width="1067" height="1046" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32921812" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info id="Image Layers" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50092083" side_tool="true" weight="0.19320215" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.4990792" weight="0.24485597" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.4990792" visible="true" weight="0.2674897" />
       <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.4990792" weight="0.3291592" />
       <window_info anchor="bottom" id="Terminal" order="3" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.13990147" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.15370196" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info id="UI Designer" order="3" />
@@ -208,63 +201,41 @@
       <window_info anchor="bottom" id="Find" order="5" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32967034" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="comit" />
     <MESSAGE value="commit" />
     <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/jgoodie/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jgoodie/Fish.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="82" selection-start-line="14" selection-start-column="82" selection-end-line="14" selection-end-column="82" />
+        <state relative-caret-position="480">
+          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jgoodie/BankAccount.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jgoodie/Dog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="63" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="690">
+          <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jgoodie/vipCustomer.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jgoodie/Animal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jgoodie/BankAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="63" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="131">
+          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jgoodie/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="82" selection-start-line="14" selection-start-column="82" selection-end-line="14" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jgoodie/vipCustomer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+        <state relative-caret-position="165">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
         </state>
       </provider>
     </entry>
