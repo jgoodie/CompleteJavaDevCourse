@@ -18,5 +18,12 @@ public class Main {
         System.out.println(myAccount.getBalance());
         myAccount.depositFunds(0.01);
         System.out.println(myAccount.getBalance());
+        myAccount.withdrawlFunds(1229501.00);
+        System.out.println(myAccount.getBalance());
+        myAccount.depositFunds(1000.00);
+        System.out.println(myAccount.getBalance());
+        System.out.println(myAccount.getBalance());
+        myAccount.withdrawlFunds(1229501.00);
     }
+
 }
