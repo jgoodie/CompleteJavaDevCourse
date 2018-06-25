@@ -26,6 +26,9 @@ public class BankAccount {
         this.phoneNumber = phoneNumber;
     }
 
+    public BankAccount(String customerName, String emailAddr, String phoneNumber) {
+        this("99999",0.00, customerName,emailAddr,phoneNumber);
+    }
 
     public void depositFunds(double depositAmount){
         if(depositAmount < 0){
