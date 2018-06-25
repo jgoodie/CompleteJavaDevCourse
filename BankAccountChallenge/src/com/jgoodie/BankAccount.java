@@ -10,6 +10,20 @@ public class BankAccount {
     private String emailAddr;
     private String phoneNumber;
 
+    // create a constructor
+    public BankAccount(){
+        System.out.println("empty constructor called");
+    }
+
+    public BankAccount(String acctNumber, double balance, String customerName, String emailAddr, String phoneNumber) {
+        this.acctNumber = acctNumber;
+        this.balance = balance;
+        this.customerName = customerName;
+        this.emailAddr = emailAddr;
+        this.phoneNumber = phoneNumber;
+    }
+
+
     public void depositFunds(double depositAmount){
         if(depositAmount < 0){
             System.out.println("Invalid Amount");
